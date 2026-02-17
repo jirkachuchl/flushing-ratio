@@ -15,7 +15,7 @@ The pipeline integrates:
 
 The full workflow is implemented in:
 
-👉 **[YOLOv11_flushing_ratio_workflow.ipynb](YOLOv11_flushing_ratio_workflow.ipynb)**
+👉 **[YOLOv11_flushing_ratio_workflow.ipynb](YOLOv11_flushing_ratio_workfow.ipynb)**
 
 The notebook can be executed in:
 
