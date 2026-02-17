@@ -1,4 +1,13 @@
+library(asreml)
+library(asremlPlus)
+source("pin.R")
+
+list.files()
+
 data <- read.csv("Site1.csv")
+data <- data[order(data$row),]
+data <- data[order(data$col),]
+
 # data <- read.csv("Site2.csv")   # Site2 (Lisice) can be calculated only from multisite model, because the year 2024 is missing 
 
 model1 <- asreml(fixed     = RCC_24  ~ 1,
