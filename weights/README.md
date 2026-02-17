@@ -70,7 +70,7 @@ Augmentations applied:
 
 The model was trained using **Ultralytics YOLOv11** in a **Google Colab notebook**.
 
-The training notebook is available in this repository:[train_yolo11_segmentation.ipynb](weights/train_yolo11_segmentation.ipynb)
+The training notebook is available in this repository: [train_yolo11_segmentation.ipynb](train_yolo11_segmentation.ipynb)
 
 ## 📊 Evaluation Metrics
 
