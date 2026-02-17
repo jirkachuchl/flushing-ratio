@@ -15,7 +15,7 @@ where:
 When both experimental sites were analyzed jointly, $H^2$ was calculated as:
 
 $$
-H^2 = \frac{\left(\sigma_{g,S_1}^2 + \sigma_{g,S_2}^2\right)}{\left(\sigma_{g,S_1}^2 + \sigma_{g,S_2}^2 + \sigma_{e,S_1}^2 + \sigma_{e,S_2}^2\right)}
+H^2 = \frac{\left(\sigma_{gS_1}^2 + \sigma_{gS_2}^2\right)}{\left(\sigma_{gS_1}^2 + \sigma_{gS_2}^2 + \sigma_{eS_1}^2 + \sigma_{eS_2}^2\right)}
 $$
 
 
