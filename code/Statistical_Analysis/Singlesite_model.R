@@ -8,6 +8,10 @@ data <- read.csv("Site1.csv")
 data <- data[order(data$row),]
 data <- data[order(data$col),]
 
+for (i in 1:6) {
+  data[,i] <- as.factor(data[,i])
+}
+
 # data <- read.csv("Site2.csv")   # Site2 (Lisice) can be calculated only from multisite model, because the year 2024 is missing 
 
 model1 <- asreml(fixed     = RCC_24  ~ 1,
