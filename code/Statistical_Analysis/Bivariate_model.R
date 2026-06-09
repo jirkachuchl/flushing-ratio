@@ -9,6 +9,10 @@ data <- data[order(data$row),]
 data <- data[order(data$col),]
 data <- data[order(data$site),]
 
+for (i in 1:6) {
+  data[,i] <- as.factor(data[,i])
+}
+
 # data <- read.csv("Site1.csv")
 # data <- read.csv("Site2.csv")
 
