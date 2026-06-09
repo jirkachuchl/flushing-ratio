@@ -4,7 +4,6 @@ Instance segmentation model for detecting **Norway spruce crowns** and **spruce 
 
 This repository provides:
 
-- ✅ Trained YOLOv11 segmentation weights  
 - ✅ Training configuration details  
 - ✅ Evaluation metrics  
 - ✅ Google Colab training & inference notebook  
@@ -12,6 +11,8 @@ This repository provides:
 ---
 
 ## 📦 Model Overview
+
+The model can be downloeaded here: [Model download](https://zenodo.org/records/20606571/files/weights.zip?download=1)
 
 This model was trained using **YOLOv11 (Ultralytics)** for instance segmentation on a custom dataset hosted on Roboflow:
 
