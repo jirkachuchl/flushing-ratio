@@ -17,7 +17,7 @@ for (i in 1:6) {
 # data <- read.csv("Site2.csv")
 
 modelC <- asreml(fixed=cbind(FR_24,FR_25)~1,
-                 random    = ~corgh(trait):clone.new,
+                 random    = ~corgh(trait):clone,
                  residual  = ~id(units):corgh(trait),
                  data      = data,
                  na.action = na.method(y="include", x="include"))
@@ -29,7 +29,7 @@ summary(modelC)$varcomp[1,]
 
 # Zero model
 model0 <- asreml(fixed     = cbind(FR_24,FR_25)~1,
-                 random    = ~diag(trait):clone.new,
+                 random    = ~diag(trait):clone,
                  residual  = ~id(units):corgh(trait),
                  data      = data,
                  na.action = na.method(y="include", x="include"))
